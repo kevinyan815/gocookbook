@@ -1,7 +1,7 @@
 # gocookbook
 
 
-刚刚开始用Go语言做开发，也走了一些弯路，在这个Repository里整理一些常用的案例，计划慢慢积累作为以后开发的CookBook。
+刚刚开始用Go语言做开发，在这个Repository里整理一些常用的案例，计划慢慢积累作为以后开发的CookBook。
 
 ## GoCookBook
 
