@@ -4,7 +4,8 @@
 刚刚开始用Go语言做开发，在这个Repository里整理一些常用的案例，计划慢慢积累作为以后开发的CookBook。
 
 ## GoCookBook
-
+- 字符串
+  - [操作中文字符串](https://github.com/kevinyan815/gocookbook/issues/11)
 - Slice切片
   - [声明和初始化](https://github.com/kevinyan815/gocookbook/issues/3)
   - [追加和删除元素](https://github.com/kevinyan815/gocookbook/issues/4)
@@ -16,3 +17,4 @@
 - 读写数据
   - [格式化JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解析JSON](https://github.com/kevinyan815/gocookbook/issues/1)
+- [正则表达式](https://github.com/kevinyan815/gocookbook/issues/110)
