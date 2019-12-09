@@ -18,4 +18,5 @@
 - 读写数据
   - [格式化JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解析JSON](https://github.com/kevinyan815/gocookbook/issues/1)
+  - [逐行读取文件](https://github.com/kevinyan815/gocookbook/issues/13)
 - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
