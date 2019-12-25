@@ -15,6 +15,7 @@
   - [声明和初始化](https://github.com/kevinyan815/gocookbook/issues/6)
   - [不要向nil map写入键值](https://github.com/kevinyan815/gocookbook/issues/7)
   - [修改map](https://github.com/kevinyan815/gocookbook/issues/8)
+  - [遍历map](https://github.com/kevinyan815/gocookbook/issues/15)
 - 读写数据
   - [格式化JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解析JSON](https://github.com/kevinyan815/gocookbook/issues/1)
