@@ -20,4 +20,7 @@
   - [编码JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
   - [逐行读取文件](https://github.com/kevinyan815/gocookbook/issues/13)
-- [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
+- [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
+- 标准库
+  - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
+  - [time](https://github.com/kevinyan815/gocookbook/issues/14)
