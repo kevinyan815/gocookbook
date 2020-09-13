@@ -27,3 +27,5 @@
 - 并发编程
   - [Reset计时器的正确姿势](https://github.com/kevinyan815/gocookbook/issues/17)
   - [结合cancelCtx, Timer, Goroutine, Channel的一个例子](https://github.com/kevinyan815/gocookbook/issues/18)
+- 线上问题解决实录
+  - [重定向到运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
