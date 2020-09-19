@@ -31,3 +31,4 @@
   - [结合cancelCtx, Timer, Goroutine, Channel的一个例子](https://github.com/kevinyan815/gocookbook/issues/18)
 - 线上问题解决实录
   - [重定向到运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
+  - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
