@@ -1,6 +1,6 @@
 //+build darwin linux unix
 
-package util
+package crosscompile
 
 import (
 	"fmt"
