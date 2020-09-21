@@ -1,5 +1,5 @@
 package crosscompile
 
-func RewriteStdErrLog(topic string) error {
+func RewritePanicsToFile(topic string) error {
 	return nil
 }
