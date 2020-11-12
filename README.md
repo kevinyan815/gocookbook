@@ -32,5 +32,5 @@
   - [使用WaitGroup, Channel和Context打造一个并发用户标签查询器](https://github.com/kevinyan815/gocookbook/issues/21)
   - [使用sync.Cond实现一个有限容量的队列](https://github.com/kevinyan815/gocookbook/issues/22)
 - 线上问题解决实录
-  - [重定向到运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
+  - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
