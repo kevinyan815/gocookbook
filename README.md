@@ -6,6 +6,8 @@
 更多原创技术文章，关注公众号「网管叨bi叨」
 
 ## 目录
+- 通用
+  - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
 - 字符串
   - [操作中文字符串](https://github.com/kevinyan815/gocookbook/issues/11)
 - Slice切片
