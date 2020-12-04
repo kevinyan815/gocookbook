@@ -40,3 +40,4 @@
 - 一些有意思的小程序
   - [一个简单的概率抽奖工具](https://github.com/kevinyan815/gocookbook/issues/23)
   - [限流算法之滑动窗口](https://github.com/kevinyan815/gocookbook/issues/26)
+  - [限流算法之令牌桶](https://github.com/kevinyan815/gocookbook/issues/27)
