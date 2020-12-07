@@ -39,5 +39,7 @@
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
 - 一些有意思的小程序
   - [一个简单的概率抽奖工具](https://github.com/kevinyan815/gocookbook/issues/23)
+  - [限流算法之计数器](https://github.com/kevinyan815/gocookbook/issues/29)
   - [限流算法之滑动窗口](https://github.com/kevinyan815/gocookbook/issues/26)
+  - [限流算法之漏桶](https://github.com/kevinyan815/gocookbook/issues/28)
   - [限流算法之令牌桶](https://github.com/kevinyan815/gocookbook/issues/27)
