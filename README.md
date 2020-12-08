@@ -33,6 +33,7 @@
   - [结合cancelCtx, Timer, Goroutine, Channel的一个例子](https://github.com/kevinyan815/gocookbook/issues/18)
   - [使用WaitGroup, Channel和Context打造一个并发用户标签查询器](https://github.com/kevinyan815/gocookbook/issues/21)
   - [使用sync.Cond实现一个有限容量的队列](https://github.com/kevinyan815/gocookbook/issues/22)
+  - [使用信号量控制有限资源的并发访问](https://github.com/kevinyan815/gocookbook/issues/30)
   - [使用Chan扩展互斥锁的功能](https://github.com/kevinyan815/gocookbook/issues/25)
 - 线上问题解决实录
   - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
