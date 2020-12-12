@@ -1,4 +1,4 @@
-package tag
+package tag_picker
 
 import (
 	"context"
