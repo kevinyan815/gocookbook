@@ -46,3 +46,4 @@
   - [限流算法之滑动窗口](https://github.com/kevinyan815/gocookbook/issues/26)
   - [限流算法之漏桶](https://github.com/kevinyan815/gocookbook/issues/28)
   - [限流算法之令牌桶](https://github.com/kevinyan815/gocookbook/issues/27)
+  - [并发趣题--H2O制造工厂](https://github.com/kevinyan815/gocookbook/issues/33)
