@@ -36,6 +36,7 @@
   - [使用信号量控制有限资源的并发访问](https://github.com/kevinyan815/gocookbook/issues/30)
   - [使用Chan扩展互斥锁的功能](https://github.com/kevinyan815/gocookbook/issues/25)
   - [用SingleFlight合并重复请求](https://github.com/kevinyan815/gocookbook/issues/31)
+  - [CyclicBarrier 循环栅栏](https://github.com/kevinyan815/gocookbook/issues/32)
 - 线上问题解决实录
   - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
