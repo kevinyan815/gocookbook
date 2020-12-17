@@ -29,6 +29,7 @@
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
   - [time](https://github.com/kevinyan815/gocookbook/issues/14)
 - 并发编程
+  - [用WaitGroup进行协同等待](https://github.com/kevinyan815/gocookbook/issues/34)
   - [Reset计时器的正确姿势](https://github.com/kevinyan815/gocookbook/issues/17)
   - [结合cancelCtx, Timer, Goroutine, Channel的一个例子](https://github.com/kevinyan815/gocookbook/issues/18)
   - [使用WaitGroup, Channel和Context打造一个并发用户标签查询器](https://github.com/kevinyan815/gocookbook/issues/21)
