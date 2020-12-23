@@ -24,10 +24,13 @@
   - [编码JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
   - [逐行读取文件](https://github.com/kevinyan815/gocookbook/issues/13)
+  - [Go语言文件操作大全](https://mp.weixin.qq.com/s/dQUEq0lJekEUH4CHEMwANw)
 - [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
   - [time](https://github.com/kevinyan815/gocookbook/issues/14)
+- 命令行
+  - [命令行flag](https://github.com/kevinyan815/gocookbook/issues/36)
 - 并发编程
   - [用WaitGroup进行协同等待](https://github.com/kevinyan815/gocookbook/issues/34)
   - [Reset计时器的正确姿势](https://github.com/kevinyan815/gocookbook/issues/17)
