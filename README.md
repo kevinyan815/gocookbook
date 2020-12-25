@@ -11,7 +11,7 @@
 - 字符串
   - [操作中文字符串](https://github.com/kevinyan815/gocookbook/issues/11)
 - 数组
-  - [数组的上限推到和越界检查](https://github.com/kevinyan815/gocookbook/issues/37)
+  - [数组的上限推导和越界检查](https://github.com/kevinyan815/gocookbook/issues/37)
 - Slice切片
   - [声明和初始化](https://github.com/kevinyan815/gocookbook/issues/3)
   - [追加和删除元素](https://github.com/kevinyan815/gocookbook/issues/4)
