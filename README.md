@@ -17,6 +17,7 @@
   - [追加和删除元素](https://github.com/kevinyan815/gocookbook/issues/4)
   - [过滤重复元素](https://github.com/kevinyan815/gocookbook/issues/5)
   - [排序结构体切片](https://github.com/kevinyan815/gocookbook/issues/12)
+  - [切片并非引用类型](https://github.com/kevinyan815/gocookbook/issues/38)
 - Map
   - [声明和初始化](https://github.com/kevinyan815/gocookbook/issues/6)
   - [不要向nil map写入键值](https://github.com/kevinyan815/gocookbook/issues/7)
