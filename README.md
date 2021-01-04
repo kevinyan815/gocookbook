@@ -9,6 +9,7 @@
 - 初始化
   - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
 - 字符串
+  - [看透Go语言的字符串](https://github.com/kevinyan815/gocookbook/issues/40)
   - [操作中文字符串](https://github.com/kevinyan815/gocookbook/issues/11)
 - 数组
   - [数组的上限推导和越界检查](https://github.com/kevinyan815/gocookbook/issues/37)
