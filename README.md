@@ -30,6 +30,10 @@
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
   - [逐行读取文件](https://github.com/kevinyan815/gocookbook/issues/13)
   - [Go语言文件操作大全](https://mp.weixin.qq.com/s/dQUEq0lJekEUH4CHEMwANw)
+  
+- 指针
+  - [用法和使用限制](https://github.com/kevinyan815/gocookbook/issues/41)
+  - [uintptr 和 unsafer.Pointer](https://github.com/kevinyan815/gocookbook/issues/42)
 - [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
