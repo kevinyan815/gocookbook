@@ -34,6 +34,7 @@
 - 指针
   - [用法和使用限制](https://github.com/kevinyan815/gocookbook/issues/41)
   - [uintptr 和 unsafer.Pointer](https://github.com/kevinyan815/gocookbook/issues/42)
+  - [扩展阅读：内存对齐](https://github.com/kevinyan815/gocookbook/issues/43)
 - [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
