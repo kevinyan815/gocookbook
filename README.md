@@ -36,6 +36,9 @@
   - [uintptr 和 unsafer.Pointer](https://github.com/kevinyan815/gocookbook/issues/42)
   - [扩展阅读：内存对齐](https://github.com/kevinyan815/gocookbook/issues/43)
 - [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
+- 函数
+  - [调用惯例和参数传递](https://github.com/kevinyan815/gocookbook/issues/44)
+- [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
   - [time](https://github.com/kevinyan815/gocookbook/issues/14)
