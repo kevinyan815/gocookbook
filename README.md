@@ -42,6 +42,7 @@
 - [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
 - 函数
   - [调用惯例和参数传递](https://github.com/kevinyan815/gocookbook/issues/44)
+  - [defer的用法和行为分析](https://github.com/kevinyan815/gocookbook/issues/51)
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
   - [time](https://github.com/kevinyan815/gocookbook/issues/14)
