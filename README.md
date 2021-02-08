@@ -53,6 +53,7 @@
   - [Context上下文](https://github.com/kevinyan815/gocookbook/issues/50)
   - [Channel 基本概念和用法](https://github.com/kevinyan815/gocookbook/issues/54)
   - [用WaitGroup进行协同等待](https://github.com/kevinyan815/gocookbook/issues/34)
+  - [ErrorGroup 兼顾协同等待和错误传输](https://github.com/kevinyan815/gocookbook/issues/35)
   - [Reset计时器的正确姿势](https://github.com/kevinyan815/gocookbook/issues/17)
   - [结合cancelCtx, Timer, Goroutine, Channel的一个例子](https://github.com/kevinyan815/gocookbook/issues/18)
   - [使用WaitGroup, Channel和Context打造一个并发用户标签查询器](https://github.com/kevinyan815/gocookbook/issues/21)
