@@ -30,6 +30,7 @@
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
   - [逐行读取文件](https://github.com/kevinyan815/gocookbook/issues/13)
   - [Go语言文件操作大全](https://mp.weixin.qq.com/s/dQUEq0lJekEUH4CHEMwANw)
+  - [字节序：大端序和小端序](https://mp.weixin.qq.com/s/ri2tt4nvEJub-wEsh0WPPA)
   
 - 指针
   - [用法和使用限制](https://github.com/kevinyan815/gocookbook/issues/41)
