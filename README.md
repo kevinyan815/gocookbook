@@ -25,6 +25,7 @@
   - [不要向nil map写入键值](https://github.com/kevinyan815/gocookbook/issues/7)
   - [修改map](https://github.com/kevinyan815/gocookbook/issues/8)
   - [遍历map](https://github.com/kevinyan815/gocookbook/issues/15)
+  - [make 和 new](https://github.com/kevinyan815/gocookbook/issues/53)
 - 读写数据
   - [编码JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
