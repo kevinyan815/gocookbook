@@ -75,3 +75,4 @@
   - [限流算法之漏桶](https://github.com/kevinyan815/gocookbook/issues/28)
   - [限流算法之令牌桶](https://github.com/kevinyan815/gocookbook/issues/27)
   - [并发趣题--H2O制造工厂](https://github.com/kevinyan815/gocookbook/issues/33)
+  - [可以自解释的Token生成算法](https://github.com/kevinyan815/gocookbook/blob/master/codes/gen_token/main.go)
