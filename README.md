@@ -49,8 +49,9 @@
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
   - [time](https://github.com/kevinyan815/gocookbook/issues/14)
-- 命令行
+- 系统编程
   - [命令行flag](https://github.com/kevinyan815/gocookbook/issues/36)
+  - [监听系统信号](https://github.com/kevinyan815/gocookbook/issues/55)
 - 并发编程
   - [Context上下文](https://github.com/kevinyan815/gocookbook/issues/50)
   - [Channel 基本概念和用法](https://github.com/kevinyan815/gocookbook/issues/54)
