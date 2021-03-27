@@ -6,6 +6,8 @@
 更多原创技术文章，关注公众号「网管叨bi叨」
 
 ## 目录
+- 编译原理（刚学Go时不用看）
+  - [Go程序的编译原理](https://github.com/kevinyan815/gocookbook/issues/56)
 - 初始化
   - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
 - 字符串
