@@ -6,8 +6,6 @@
 更多原创技术文章，关注公众号「网管叨bi叨」
 
 ## 目录
-- 编译原理（刚学Go时不用看）
-  - [Go程序的编译原理](https://github.com/kevinyan815/gocookbook/issues/56)
 - 初始化
   - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
 - 字符串
@@ -72,6 +70,8 @@
   - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
   - [在容器里怎么设置GOMAXPRCS](https://github.com/kevinyan815/gocookbook/issues/57)
+- 编译原理
+  - [Go程序的编译原理](https://github.com/kevinyan815/gocookbook/issues/56)
 - 一些有意思的小程序
   - [一个简单的概率抽奖工具](https://github.com/kevinyan815/gocookbook/issues/23)
   - [限流算法之计数器](https://github.com/kevinyan815/gocookbook/issues/29)
