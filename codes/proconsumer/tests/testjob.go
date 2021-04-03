@@ -18,7 +18,8 @@ func main() {
 func ProducerFunc(producer *proconsumer.Producer) error {
 	dir, _ := os.Getwd()
 	fmt.Println(dir)
-	file, err := os.Open(dir + "/tests1/file.txt")
+	// 自己试一下故意写错文件路径
+	file, err := os.Open(dir + "/tests/file.txt")
 	if err != nil {
 		return err
 	}
