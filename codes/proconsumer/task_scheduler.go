@@ -48,5 +48,9 @@ func (ts *TaskScheduler) Execute () (err error) {
 	}
 
 	err = ts.errGroup.Wait()
+	if err != nil {
+		// 如果有goroutine执行发生错误, 等待2秒尽可能保证其他goroutine完成收尾工作。
+		time.Sleep(time.Second * 2)
+	}
 	return err
 }
