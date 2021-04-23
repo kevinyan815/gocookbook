@@ -8,6 +8,9 @@
 ## 目录
 - 初始化
   - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
+
+- 项目工程
+  - [依赖管理工具GOMODULE](https://mp.weixin.qq.com/s/xtvTUl2IZFQ79dSR_m-b7A)
 - 字符串
   - [看透Go语言的字符串](https://github.com/kevinyan815/gocookbook/issues/40)
   - [操作中文字符串](https://github.com/kevinyan815/gocookbook/issues/11)
