@@ -88,5 +88,6 @@
   - [限流算法之令牌桶](https://github.com/kevinyan815/gocookbook/issues/27)
   - [并发趣题--H2O制造工厂](https://github.com/kevinyan815/gocookbook/issues/33)
   - [可以自解释的Token生成算法](https://github.com/kevinyan815/gocookbook/blob/master/codes/gen_token/main.go)
+  - [生成分布式链路追踪traceid和spanid的算法](https://github.com/kevinyan815/gocookbook/blob/master/codes/trace_span/main.go)
 - gRPC应用实践
   - [interceptor拦截器--gRPC的Middleware](https://github.com/kevinyan815/gocookbook/issues/60)
