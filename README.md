@@ -51,15 +51,14 @@
   - [调用惯例和参数传递](https://github.com/kevinyan815/gocookbook/issues/44)
   - [defer的用法和行为分析](https://github.com/kevinyan815/gocookbook/issues/51)
   - [panic和recover](https://github.com/kevinyan815/gocookbook/issues/52)
+- 包
+  - [内部包](https://github.com/kevinyan815/gocookbook/issues/58)
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
   - [time](https://github.com/kevinyan815/gocookbook/issues/14)
 - 系统编程
   - [命令行flag](https://github.com/kevinyan815/gocookbook/issues/36)
   - [监听系统信号](https://github.com/kevinyan815/gocookbook/issues/55)
-
-- 包
-  - [内部包](https://github.com/kevinyan815/gocookbook/issues/58)
 - 并发编程
   - [Context上下文](https://github.com/kevinyan815/gocookbook/issues/50)
   - [Channel 基本概念和用法](https://github.com/kevinyan815/gocookbook/issues/54)
@@ -74,6 +73,9 @@
   - [用SingleFlight合并重复请求](https://github.com/kevinyan815/gocookbook/issues/31)
   - [CyclicBarrier 循环栅栏](https://github.com/kevinyan815/gocookbook/issues/32)
   - [Go并发编程同步原语之ErrorGroup](https://github.com/kevinyan815/gocookbook/issues/35)
+- 数据库访问
+  - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
+  - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
 - 线上问题解决实录
   - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
