@@ -5,6 +5,11 @@
 
 更多原创技术文章，关注公众号「网管叨bi叨」
 
+### 课程推荐
+
+[视频课--Go语言从入门到实战](http://gk.link/a/10tim)
+[实战课--Go并发编程实战20讲](http://gk.link/a/10nB6)
+
 ## 目录
 - 初始化
   - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
