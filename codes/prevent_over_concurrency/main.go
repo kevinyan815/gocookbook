@@ -4,6 +4,7 @@ import (
 	"context"
 	"fmt"
 	"golang.org/x/sync/semaphore"
+	"golang.org/x/time/rate"
 	"sync"
 	"time"
 )
@@ -12,7 +13,9 @@ func main() {
 	// 使用WaitGroup防止并发超限
 	// useWaitGroup()
 	// 使用Semaphore防止并发超限
-	useSemaphore()
+	//useSemaphore()
+	// 使用golang标准库的限流器
+	useRateLimit()
 }
 
 func useWaitGroup() {
@@ -60,6 +63,27 @@ func useSemaphore() {
 		}(i)
 
 		i++
+	}
+}
+
+func useRateLimit() {
+	limiter := rate.NewLimiter(rate.Every(1 * time.Second), 20)
+	noMoreData := false
+	var identifier int64 = 1
+	for {
+		if noMoreData {
+			break
+		}
+		// blocking until the bucket have sufficient token
+		err := limiter.Wait(context.Background())
+		if err != nil {
+			fmt.Println("Error: ", err)
+		}
+		go func(i int64) {
+			doSomething(i)
+		}(identifier)
+
+		identifier ++
 	}
 }
 
