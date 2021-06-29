@@ -87,6 +87,7 @@
   - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
   - [在容器里怎么设置GOMAXPRCS](https://github.com/kevinyan815/gocookbook/issues/57)
+  - [预防并发搞垮友军的几个方法](https://github.com/kevinyan815/gocookbook/issues/63)
 - 编译原理
   - [Go程序的编译原理](https://github.com/kevinyan815/gocookbook/issues/56)
 - 一些有意思的小程序
