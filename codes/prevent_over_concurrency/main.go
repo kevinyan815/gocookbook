@@ -5,89 +5,117 @@ import (
 	"fmt"
 	"golang.org/x/sync/semaphore"
 	"golang.org/x/time/rate"
+	"math/rand"
 	"sync"
 	"time"
 )
 
 func main() {
+	// 错误的并发控制
+	badConcurrency()
 	// 使用WaitGroup防止并发超限
-	// useWaitGroup()
+	//useWaitGroup()
 	// 使用Semaphore防止并发超限
 	//useSemaphore()
 	// 使用golang标准库的限流器
-	useRateLimit()
+	//useRateLimit()
 }
 
 func useWaitGroup() {
 
-	noMoreData := false
-	var concurrentNum int64 = 10
-
+	batchSize := 50
 	for {
-		if noMoreData {
+		data, _ := queryDataWithSizeN(batchSize)
+		if len(data) == 0 {
+			fmt.Println("End of all data")
 			break
 		}
-
 		var wg sync.WaitGroup
-		var i int64 = 0
-		for ; i < concurrentNum; i++ {
+		for _, item := range data {
 			wg.Add(1)
-			go func(i int64) {
+			go func(i int) {
 				doSomething(i)
 				wg.Done()
-			}(i)
+			}(item)
 		}
 		wg.Wait()
 
-		time.Sleep(200 * time.Millisecond)
-		fmt.Println("Next bunch of things")
+		fmt.Println("Next bunch of data")
 	}
 }
 
 func useSemaphore() {
-	noMoreData := false
 	var concurrentNum int64 = 10
 	var weight int64 = 1
+	var batchSize int = 50
 	s := semaphore.NewWeighted(concurrentNum)
-	var i int64 = 1
 	for {
-
-		if noMoreData {
+		data, _ := queryDataWithSizeN(batchSize)
+		if len(data) == 0 {
+			fmt.Println("End of all data")
 			break
 		}
 
-		go func(i int64) {
-			s.Acquire(context.Background(), weight)
-			doSomething(i)
-			s.Release(weight)
-		}(i)
+		for _, item := range data {
+			go func(i int) {
+				s.Acquire(context.Background(), weight)
+				doSomething(i)
+				s.Release(weight)
+			}(item)
+		}
 
-		i++
 	}
 }
 
 func useRateLimit() {
-	limiter := rate.NewLimiter(rate.Every(1 * time.Second), 20)
-	noMoreData := false
-	var identifier int64 = 1
+	limiter := rate.NewLimiter(rate.Every(1*time.Second), 50)
+	batchSize := 50
 	for {
-		if noMoreData {
+		data, _ :=queryDataWithSizeN(batchSize)
+		if len(data) == 0 {
+			fmt.Println("End of all data")
 			break
 		}
-		// blocking until the bucket have sufficient token
-		err := limiter.Wait(context.Background())
-		if err != nil {
-			fmt.Println("Error: ", err)
-		}
-		go func(i int64) {
-			doSomething(i)
-		}(identifier)
 
-		identifier ++
+		for _, item := range data {
+			// blocking until the bucket have sufficient token
+			err := limiter.Wait(context.Background())
+			if err != nil {
+				fmt.Println("Error: ", err)
+				return
+			}
+			go func(i int) {
+				doSomething(i)
+			}(item)
+		}
 	}
 }
 
-func doSomething(i int64) {
+func badConcurrency() {
+	batchSize := 50
+	for {
+		data, _ := queryDataWithSizeN(batchSize)
+		if len(data) == 0 {
+			break
+		}
+
+		for _, item := range data {
+			go func(i int) {
+				doSomething(i)
+			}(item)
+		}
+
+		time.Sleep(time.Second * 1)
+	}
+}
+
+func doSomething(i int) {
 	time.Sleep(2 * time.Second)
 	fmt.Println("End:", i)
+}
+
+func queryDataWithSizeN(size int) (dataList []int, err error) {
+	rand.Seed(time.Now().Unix())
+	dataList = rand.Perm(size)
+	return
 }
