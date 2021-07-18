@@ -19,6 +19,8 @@ func main() {
 	//useSemaphore()
 	// 使用golang标准库的限流器
 	//useRateLimit()
+	// 使用通道实现的生产者和消费者队列
+	useChannel()
 }
 
 func useWaitGroup() {
@@ -89,6 +91,46 @@ func useRateLimit() {
 			}(item)
 		}
 	}
+}
+
+func useChannel() {
+	batchSize := 50
+	dataChan := make(chan int)
+	var wg sync.WaitGroup
+	wg.Add(batchSize + 1)
+	// 生产者
+	go func() {
+		for {
+			data, _ := queryDataWithSizeN(batchSize)
+			if len(data) == 0 {
+				break
+			}
+			for _, item := range data {
+				dataChan <- item
+			}
+		}
+		close(dataChan)
+		wg.Done()
+	}()
+        // 消费者
+	go func() {
+		for i := 0; i < 50; i++ {
+			go func() {
+				for {
+					select {
+					case v, ok := <- dataChan:
+						if !ok {
+							wg.Done()
+							return
+						}
+						doSomething(v)
+					}
+				}
+			}()
+		}
+	}()
+
+	wg.Wait()
 }
 
 func badConcurrency() {
