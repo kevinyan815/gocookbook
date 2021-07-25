@@ -59,8 +59,8 @@ func useSemaphore() {
 		}
 
 		for _, item := range data {
+			s.Acquire(context.Background(), weight)
 			go func(i int) {
-				s.Acquire(context.Background(), weight)
 				doSomething(i)
 				s.Release(weight)
 			}(item)
