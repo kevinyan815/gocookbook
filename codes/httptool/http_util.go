@@ -2,6 +2,7 @@ package main
 
 import (
 	"io/ioutil"
+	"log"
 	"net/http"
 	"strings"
 	"time"
@@ -10,6 +11,7 @@ import (
 
 
 func httpRequest(method string, url string, data string, headers map[string]string, timeout time.Duration) (code int, content string, err error) {
+	start := time.Now()
 	req, err := http.NewRequest(method, url, strings.NewReader(data))
 	if len(headers) != 0 {
 		for key, value := range headers {
@@ -31,7 +33,15 @@ func httpRequest(method string, url string, data string, headers map[string]stri
 	code = resp.StatusCode
 	result, _ := ioutil.ReadAll(resp.Body)
 	content = string(result)
-
+	defer func() {
+		dur := int64(time.Since(start) / time.Millisecond)
+		if dur >= 500 {
+			log.Println("HttpPost", url, "in", data, "out", content, "err", err, "dur/ms", dur)
+		} else {
+			log.Println("HttpPost", url, "in", data, "out", content, "err", err, "dur/ms", dur)
+		}
+	}()
+	
 	return
 }
 
