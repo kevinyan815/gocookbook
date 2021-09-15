@@ -83,6 +83,7 @@
 - 数据库访问
   - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
   - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
+  - [GORM 指南](https://gorm.io/zh_CN/docs/index.html)
 - 线上问题解决实录
   - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
