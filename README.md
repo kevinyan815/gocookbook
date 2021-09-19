@@ -80,6 +80,7 @@
   - [用SingleFlight合并重复请求](https://github.com/kevinyan815/gocookbook/issues/31)
   - [CyclicBarrier 循环栅栏](https://github.com/kevinyan815/gocookbook/issues/32)
   - [Go并发编程同步原语之ErrorGroup](https://github.com/kevinyan815/gocookbook/issues/35)
+  - [原子操作的用法详解](https://github.com/kevinyan815/gocookbook/issues/65)
 - 数据库访问
   - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
   - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
