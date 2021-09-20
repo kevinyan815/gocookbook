@@ -17,6 +17,7 @@
 
 - 项目工程
   - [依赖管理工具GOMODULE](https://mp.weixin.qq.com/s/xtvTUl2IZFQ79dSR_m-b7A)
+  - [GoModules 管理私有依赖模块](https://mp.weixin.qq.com/s/8E1PwnglrS18hZsUEvE-Qw)
   - [常用编码规范](https://github.com/kevinyan815/gocookbook/issues/61)
 - 字符串
   - [看透Go语言的字符串](https://github.com/kevinyan815/gocookbook/issues/40)
