@@ -60,6 +60,9 @@
   - [调用惯例和参数传递](https://github.com/kevinyan815/gocookbook/issues/44)
   - [defer的用法和行为分析](https://github.com/kevinyan815/gocookbook/issues/51)
   - [panic和recover](https://github.com/kevinyan815/gocookbook/issues/52)
+
+- 错误处理
+  - [关于Golang错误处理的一些建议](https://github.com/kevinyan815/gocookbook/issues/66)
 - 包
   - [内部包](https://github.com/kevinyan815/gocookbook/issues/58)
 - 标准库
