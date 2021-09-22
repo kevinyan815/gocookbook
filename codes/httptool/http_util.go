@@ -1,4 +1,4 @@
-package httputil
+package httptool
 
 import (
 	"io/ioutil"
