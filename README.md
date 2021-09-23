@@ -55,6 +55,7 @@
   - [认识Go的接口](https://github.com/kevinyan815/gocookbook/issues/45)
   - [Go接口的类型和方法的接收者](https://github.com/kevinyan815/gocookbook/issues/46)
   - [接口的类型转换和断言](https://github.com/kevinyan815/gocookbook/issues/47)
+  - [接口调用时的动态派发](https://github.com/kevinyan815/gocookbook/issues/67)
 - [Range 迭代](https://github.com/kevinyan815/gocookbook/issues/15)
 - 函数
   - [调用惯例和参数传递](https://github.com/kevinyan815/gocookbook/issues/44)
