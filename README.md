@@ -5,7 +5,7 @@
 
 仓库里所有知识点对应的代码示例都可正常运行，拿来直接应用到生产项目上也不会有问题。因为目的是积累Go语言开发的案头书，所以并不会讲源码分析之类的东西，如果想更多了解 Go 语言各种内部原理和源代码解读欢迎关注我的公众号 **「网管叨bi叨」** ，那里除了应用还会用大量的原理分析。
 
-![图片](https://cdn.learnku.com/uploads/images/202109/24/6964/ZXgD1fAlOU.png!large)
+![#公众号：网管叨bi叨](https://cdn.learnku.com/uploads/images/202109/24/6964/ZXgD1fAlOU.png!large)
 
 ### 课程推荐
 
