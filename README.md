@@ -7,11 +7,6 @@
 
 ![#公众号：网管叨bi叨](https://cdn.learnku.com/uploads/images/202109/24/6964/ZXgD1fAlOU.png!large)
 
-### 课程推荐
-
-[视频课--Go语言从入门到实战](http://gk.link/a/10tim)
-
-[实战课--Go并发编程实战20讲](http://gk.link/a/10nB6)
 
 ## 目录
 - 初始化
