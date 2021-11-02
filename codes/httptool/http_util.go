@@ -8,12 +8,14 @@ import (
 	"time"
 )
 
-func httpRequest(method string, url string, options ...*Option) (code int, content string, err error) {
+func httpRequest(method string, url string, options ...Option) (code int, content string, err error) {
 	start := time.Now()
 
 	reqOpts := defaultRequestOptions() // 默认的请求选项
 	for _, opt := range options {      // 在reqOpts上应用通过options设置的选项
-		opt.apply(reqOpts)
+		err = opt.apply(reqOpts); if err != nil {
+			return
+		}
 	}
 	// 创建请求对象
 	req, err := http.NewRequest(method, url, strings.NewReader(reqOpts.data))
@@ -52,7 +54,7 @@ func httpRequest(method string, url string, options ...*Option) (code int, conte
 }
 
 // 发起GET请求
-func HttpGet(url string, options ...*Option) (code int, content string, err error) {
+func HttpGet(url string, options ...Option) (code int, content string, err error) {
 	return httpRequest("GET", url, options...)
 }
 
@@ -74,9 +76,16 @@ type requestOption struct {
 	headers map[string]string
 }
 
-type Option struct {
-	apply func(option *requestOption)
+type Option interface {
+	apply(option *requestOption) error
 }
+
+type optionFunc func(option *requestOption) error
+
+func (f optionFunc) apply(opts *requestOption) error {
+	return f(opts)
+}
+
 
 func defaultRequestOptions() *requestOption {
 	return &requestOption{ // 默认请求选项
@@ -86,26 +95,23 @@ func defaultRequestOptions() *requestOption {
 	}
 }
 
-func WithTimeout(timeout time.Duration) *Option {
-	return &Option{
-		apply: func(option *requestOption) {
-			option.timeout = timeout
-		},
-	}
+func WithTimeout(timeout time.Duration) Option {
+	return optionFunc(func(opts *requestOption) (err error) {
+		opts.timeout, err = timeout, nil
+		return
+	})
 }
 
-func WithHeaders(headers map[string]string) *Option {
-	return &Option{
-		apply: func(option *requestOption) {
-			option.headers = headers
-		},
-	}
+func WithHeaders(headers map[string]string) Option {
+	return optionFunc(func(opts *requestOption) (err error) {
+		opts.headers, err = headers, nil
+		return
+	})
 }
 
-func WithData(data string) *Option {
-	return &Option{
-		apply: func(option *requestOption) {
-			option.data = data
-		},
-	}
+func WithData(data string) Option {
+	return optionFunc(func(opts *requestOption) (err error) {
+		opts.data, err = data, nil
+		return
+	})
 }
