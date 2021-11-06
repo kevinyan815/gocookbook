@@ -86,6 +86,7 @@
   - [原子操作的用法详解](https://github.com/kevinyan815/gocookbook/issues/65)
 - 反射
   - [Go反射的使用教程](https://github.com/kevinyan815/gocookbook/issues/69)
+  - [反射最常见的应用--结构体标签](https://github.com/kevinyan815/gocookbook/issues/70)
 - 数据库访问
   - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
   - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
