@@ -67,6 +67,10 @@
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
   - [time](https://github.com/kevinyan815/gocookbook/issues/14)
+- 数据库访问
+  - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
+  - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
+  - [GORM 指南](https://gorm.io/zh_CN/docs/index.html)
 - 系统编程
   - [命令行flag](https://github.com/kevinyan815/gocookbook/issues/36)
   - [监听系统信号](https://github.com/kevinyan815/gocookbook/issues/55)
@@ -87,10 +91,6 @@
 - 反射
   - [Go反射的使用教程](https://github.com/kevinyan815/gocookbook/issues/69)
   - [反射最常见的应用--结构体标签](https://github.com/kevinyan815/gocookbook/issues/70)
-- 数据库访问
-  - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
-  - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
-  - [GORM 指南](https://gorm.io/zh_CN/docs/index.html)
 - 线上问题解决实录
   - [重定向运行时panic到日志文件](https://github.com/kevinyan815/gocookbook/issues/19)
   - [用Go的交叉编译和条件编译让自己的软件包运行在多平台上](https://github.com/kevinyan815/gocookbook/issues/20)
@@ -110,3 +110,5 @@
   - [一个带阻塞限流器的HTTP客户端](https://github.com/kevinyan815/gocookbook/blob/master/codes/http_client_with_rate/http_rl_client.go)
 - gRPC应用实践
   - [interceptor拦截器--gRPC的Middleware](https://github.com/kevinyan815/gocookbook/issues/60)
+- Go服务治理
+  - [让Go进程监控自己的资源使用情况](https://github.com/kevinyan815/gocookbook/issues/71)
