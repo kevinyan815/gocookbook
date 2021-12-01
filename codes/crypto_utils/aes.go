@@ -48,7 +48,7 @@ func HMACSHA1(value, keyStr string) string {
 	return res
 }
 
-func AesEcbPskcs5Decrypt(crypted, key []byte) (origData []byte, err error) {
+func AesEcbPkcs5Decrypt(crypted, key []byte) (origData []byte, err error) {
 	block, err := aes.NewCipher(key)
 	if err != nil {
 		return
@@ -60,7 +60,7 @@ func AesEcbPskcs5Decrypt(crypted, key []byte) (origData []byte, err error) {
 	return
 }
 
-func AesEcbPskcs5Encrypt(src string, key []byte) (crypted []byte, err error) {
+func AesEcbPkcs5Encrypt(src string, key []byte) (crypted []byte, err error) {
 	block, err := aes.NewCipher(key)
 	if err != nil {
 		return
@@ -188,7 +188,7 @@ func AES256CBCDecrypt(plantText string, key string, iv string) (value string, er
 }
 
 //key is 16 bytes
-func AesEncrypt(origData, key []byte) ([]byte, error) {
+func AesCbcPkcs5Encrypt(origData, key []byte) ([]byte, error) {
 	block, err := aes.NewCipher(key)
 	if err != nil {
 		return nil, err
@@ -202,7 +202,7 @@ func AesEncrypt(origData, key []byte) ([]byte, error) {
 	return crypted, nil
 }
 
-func AesDecrypt(crypted, key []byte) ([]byte, error) {
+func AesCbcPkcs5Decrypt(crypted, key []byte) ([]byte, error) {
 	block, err := aes.NewCipher(key)
 	if err != nil {
 		return nil, err
