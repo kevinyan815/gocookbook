@@ -262,3 +262,23 @@ func OpenSslAesDecrypt(payload string, key string) (value string, err error) {
 
 	return AES256CBCDecrypt(crypt.Value, key, crypt.Iv)
 }
+
+
+// Demo Application
+func aesEncryptDemo(content string) string {
+	aesKey := "b3c65d06a1cf4dbda57af0af5c63e85f"
+	aesKeyByte, _ := hex.DecodeString(aesKey)
+	encrypt, _ := AesEcbPskcs5Encrypt(content, aesKeyByte)
+	return hex.EncodeToString(encrypt)
+}
+
+func aesDecryptDemo(crypt string) (reply string, err error) {
+	if crypt == "" {
+		return
+	}
+	aesKey := "b3c65d06a1cf4dbda57af0af5c63e85f"
+	aesKeyByte, _ := hex.DecodeString(aesKey)
+	cryptByte, _ := hex.DecodeString(crypt)
+	decryptByte, err := AesEcbPskcs5Decrypt(cryptByte, aesKeyByte)
+	return string(decryptByte), err
+}
