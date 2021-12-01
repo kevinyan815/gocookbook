@@ -48,6 +48,7 @@ func HMACSHA1(value, keyStr string) string {
 	return res
 }
 
+// key is 32 bytes
 func AesEcbPkcs5Decrypt(crypted, key []byte) (origData []byte, err error) {
 	block, err := aes.NewCipher(key)
 	if err != nil {
