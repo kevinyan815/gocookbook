@@ -15,6 +15,9 @@ import (
 	"strings"
 )
 
+// AES KEY either 16, 24, or 32 bytes to select AES-128, AES-192, or AES-256
+// var aseKey = "b3c65d06a1cf4dbda57af0af5c63e85f"
+
 func Base64URLDecode(data string) ([]byte, error) {
 	var missing = (4 - len(data)%4) % 4
 	data += strings.Repeat("=", missing)
