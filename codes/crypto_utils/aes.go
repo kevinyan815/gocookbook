@@ -9,10 +9,13 @@ import (
 	"crypto/sha1"
 	"crypto/sha256"
 	"encoding/base64"
+	"encoding/hex"
 	"encoding/json"
+	"errors"
 	"fmt"
 	"io"
 	"strings"
+	"time"
 )
 
 // AES KEY either 16, 24, or 32 bytes to select AES-128, AES-192, or AES-256
@@ -46,6 +49,17 @@ func HMACSHA1(value, keyStr string) string {
 	//进行base64编码
 	res := base64.StdEncoding.EncodeToString(mac.Sum(nil))
 	return res
+}
+
+func HmacEqual(signingString, signature string, key) error {
+	originalSig, err := base64.StdEncoding.DecodeString(signature)
+	mac := hmac.New(sha1.New, key)
+	mac.Write([]byte(value))
+	if !hmac.Equal(originalSig, mac.Sum(nil)) {
+		return errors.New("signature is invalid")
+	}
+
+	return nil
 }
 
 // key is 32 bytes
@@ -268,7 +282,7 @@ func OpenSslAesDecrypt(payload string, key string) (value string, err error) {
 func aesEncryptDemo(content string) string {
 	aesKey := "b3c65d06a1cf4dbda57af0af5c63e85f"
 	aesKeyByte, _ := hex.DecodeString(aesKey)
-	encrypt, _ := AesEcbPskcs5Encrypt(content, aesKeyByte)
+	encrypt, _ := AesEcbPkcs5Encrypt(content, aesKeyByte)
 	return hex.EncodeToString(encrypt)
 }
 
@@ -279,6 +293,14 @@ func aesDecryptDemo(crypt string) (reply string, err error) {
 	aesKey := "b3c65d06a1cf4dbda57af0af5c63e85f"
 	aesKeyByte, _ := hex.DecodeString(aesKey)
 	cryptByte, _ := hex.DecodeString(crypt)
-	decryptByte, err := AesEcbPskcs5Decrypt(cryptByte, aesKeyByte)
+	decryptByte, err := AesEcbPkcs5Decrypt(cryptByte, aesKeyByte)
 	return string(decryptByte), err
+}
+
+// generate sign
+func genSignDemo(params string) (sign string) {
+	sha1key := "564826"
+	time := time.Now().Format("20060102150405")
+	sourceData := "&params=" + params + "&time=" + time
+	return HMACSHA1(sourceData, sha1key)
 }
