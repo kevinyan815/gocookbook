@@ -113,3 +113,4 @@
   - [interceptor拦截器--gRPC的Middleware](https://github.com/kevinyan815/gocookbook/issues/60)
 - Go服务治理
   - [让Go进程监控自己的资源使用情况](https://github.com/kevinyan815/gocookbook/issues/71)
+  - [Go服务的自动采样方案设计思路](https://github.com/kevinyan815/gocookbook/issues/72)
