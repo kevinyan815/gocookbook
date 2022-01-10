@@ -114,3 +114,4 @@
 - Go服务治理
   - [让Go进程监控自己的资源使用情况](https://github.com/kevinyan815/gocookbook/issues/71)
   - [Go服务进行自动采样性能分析的方案设计思路](https://github.com/kevinyan815/gocookbook/issues/72)
+  - [分布式服务的日志该怎么串联起来](https://mp.weixin.qq.com/s/M2jNnLkYaearwyRERnt0tA)
