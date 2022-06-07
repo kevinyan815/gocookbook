@@ -119,3 +119,11 @@
   - [让Go进程监控自己的资源使用情况](https://github.com/kevinyan815/gocookbook/issues/71)
   - [Go服务进行自动采样性能分析的方案设计思路](https://github.com/kevinyan815/gocookbook/issues/72)
   - [分布式服务的日志该怎么串联起来](https://mp.weixin.qq.com/s/M2jNnLkYaearwyRERnt0tA)
+- Go 单元测试通关指南
+  - [go test 工具集和表格测试](https://github.com/kevinyan815/gocookbook/issues/75)
+  - [模拟网络请求和接口调用](https://github.com/kevinyan815/gocookbook/issues/76)
+  - [原生数据库查询的 Mock 测试](https://github.com/kevinyan815/gocookbook/issues/77)
+  - [数据库ORM的Mock测试](https://github.com/kevinyan815/gocookbook/issues/80)
+  - [Mock接口实现和对接口打桩](https://github.com/kevinyan815/gocookbook/issues/78)
+  - [全能打桩工具Go Monkey的使用介绍](https://github.com/kevinyan815/gocookbook/issues/79)
+  - [如何写出可测试的代码](https://github.com/kevinyan815/gocookbook/issues/81)
