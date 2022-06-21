@@ -104,7 +104,9 @@ func WithTimeout(timeout time.Duration) Option {
 
 func WithHeaders(headers map[string]string) Option {
 	return optionFunc(func(opts *requestOption) (err error) {
-		opts.headers, err = headers, nil
+		for k, v := range headers {
+			opts.headers[k] = v
+		}
 		return
 	})
 }
