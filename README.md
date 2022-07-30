@@ -9,7 +9,9 @@
 
 
 ## 目录
-- [环境安装](https://github.com/kevinyan815/gocookbook/issues/74)
+- 前期准备
+  - [环境安装](https://github.com/kevinyan815/gocookbook/issues/74)
+  - [基础语法](https://github.com/kevinyan815/gocookbook/blob/master/lang-basic/README.md)
 - 初始化
   - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
 
