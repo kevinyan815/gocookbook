@@ -68,6 +68,7 @@
 
 - 错误处理
   - [关于Golang错误处理的一些建议](https://github.com/kevinyan815/gocookbook/issues/66)
+  - [Go代码更优雅地错误处理](https://github.com/kevinyan815/gocookbook/issues/82)
 - 包
   - [内部包](https://github.com/kevinyan815/gocookbook/issues/58)
 - 标准库
