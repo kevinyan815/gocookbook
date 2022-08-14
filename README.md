@@ -14,6 +14,7 @@
   - [基础语法](https://github.com/kevinyan815/gocookbook/blob/master/lang-basic/README.md)
 - 初始化
   - [Go应用初始化工作的执行顺序](https://github.com/kevinyan815/gocookbook/issues/24)
+  - [Go语言init函数的六个特征](https://mp.weixin.qq.com/s/P-BhuQy1Vd3lxlYgClDAJA)
 
 - 项目工程
   - [依赖管理工具GOMODULE](https://mp.weixin.qq.com/s/xtvTUl2IZFQ79dSR_m-b7A)
