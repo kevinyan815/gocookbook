@@ -48,9 +48,11 @@
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
   - [逐行读取文件](https://github.com/kevinyan815/gocookbook/issues/13)
   - [Go语言IO库使用方法汇总 (进行IO操作时到底应该用哪个库)](https://github.com/kevinyan815/gocookbook/issues/62)
-  - [Go语言文件操作大全](https://mp.weixin.qq.com/s/dQUEq0lJekEUH4CHEMwANw)
   - [字节序：大端序和小端序](https://mp.weixin.qq.com/s/ri2tt4nvEJub-wEsh0WPPA)
   - [用Golang读写HTTP请求(附Options设计模式实现)](https://github.com/kevinyan815/gocookbook/issues/64)
+- 目录和文件操作
+  - [Go语言文件操作大全](https://mp.weixin.qq.com/s/dQUEq0lJekEUH4CHEMwANw)
+  - [加餐版--实用的目录和文件操作](https://github.com/kevinyan815/gocookbook/issues/13)
   
 - 指针
   - [用法和使用限制](https://github.com/kevinyan815/gocookbook/issues/41)
