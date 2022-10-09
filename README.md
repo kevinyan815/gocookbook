@@ -76,7 +76,8 @@
   - [内部包](https://github.com/kevinyan815/gocookbook/issues/58)
 - 标准库
   - [正则表达式](https://github.com/kevinyan815/gocookbook/issues/9)
-  - [time](https://github.com/kevinyan815/gocookbook/issues/14)
+  - [Time 常用基础操作](https://github.com/kevinyan815/gocookbook/issues/14)
+  - [Time 的时区和时间计算操作汇总](https://github.com/kevinyan815/gocookbook/issues/85)
 - 数据库访问
   - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
   - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
