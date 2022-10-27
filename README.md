@@ -25,6 +25,7 @@
   - [看透Go语言的字符串](https://github.com/kevinyan815/gocookbook/issues/40)
   - [操作中文字符串](https://github.com/kevinyan815/gocookbook/issues/11)
   - [常用字符串操作](https://yourbasic.org/golang/string-functions-reference-cheat-sheet/)
+  - [string、int、int64 类型之间的相互转换](https://yourbasic.org/golang/convert-int-to-string/)
   - [高性能地拼接字符串](https://github.com/kevinyan815/gocookbook/issues/68)
 - 数组
   - [数组的上限推导和越界检查](https://github.com/kevinyan815/gocookbook/issues/37)
