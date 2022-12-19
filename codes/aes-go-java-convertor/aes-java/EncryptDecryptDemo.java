@@ -7,7 +7,7 @@ import java.security.GeneralSecurityException;
 import java.util.Arrays;
 import java.util.Base64;
 
-public class DecryptDemo {
+public class EncryptDecryptDemo {
 
     public byte[] decrypt(String key, byte[] crypted) throws GeneralSecurityException {
         byte[] keyBytes = getKeyBytes(key);
