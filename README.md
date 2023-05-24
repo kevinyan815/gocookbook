@@ -94,6 +94,7 @@
      - [图解 Context 原理](https://mp.weixin.qq.com/s/NNYyBLOO949ElFriLVRWiA)
      - [Context 源码学习](https://mp.weixin.qq.com/s/SJna8UAoV9GTGCuRezC9Qw)
   - [Channel 基本概念和用法](https://github.com/kevinyan815/gocookbook/issues/54)
+  - [互斥锁的典型用法和常见误区](https://github.com/kevinyan815/gocookbook/issues/88)
   - [用WaitGroup进行协同等待](https://github.com/kevinyan815/gocookbook/issues/34)
   - [ErrorGroup 兼顾协同等待和错误传递](https://github.com/kevinyan815/gocookbook/issues/35)
   - [Reset计时器的正确姿势](https://github.com/kevinyan815/gocookbook/issues/17)
