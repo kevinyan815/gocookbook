@@ -127,6 +127,7 @@
   - [生成分布式链路追踪traceid和spanid的算法](https://github.com/kevinyan815/gocookbook/blob/master/codes/trace_span/main.go)
   - [一个带阻塞限流器的HTTP客户端](https://github.com/kevinyan815/gocookbook/blob/master/codes/http_client_with_rate/http_rl_client.go)
   - [AES加解密，HMAC验签](https://github.com/kevinyan815/gocookbook/blob/master/codes/crypto_utils/aes.go)
+  - [密码复杂度验证](https://github.com/kevinyan815/gocookbook/tree/master/codes/password_complexity)
 - gRPC应用实践
   - [interceptor拦截器--gRPC的Middleware](https://github.com/kevinyan815/gocookbook/issues/60)
 - Go服务治理
