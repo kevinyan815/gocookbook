@@ -48,6 +48,7 @@
 - 读写数据
   - [编码JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
+  - [如何控制Go编码JSON数据时的行为](https://mp.weixin.qq.com/s/L45G42s0DMZhStszZnmTGQ)
   - [逐行读取文件](https://github.com/kevinyan815/gocookbook/issues/13)
   - [Go语言IO库使用方法汇总 (进行IO操作时到底应该用哪个库)](https://github.com/kevinyan815/gocookbook/issues/62)
   - [字节序：大端序和小端序](https://mp.weixin.qq.com/s/ri2tt4nvEJub-wEsh0WPPA)
