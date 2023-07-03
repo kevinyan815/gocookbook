@@ -37,6 +37,7 @@
   - [排序结构体切片](https://github.com/kevinyan815/gocookbook/issues/12)
   - [切片并非引用类型](https://github.com/kevinyan815/gocookbook/issues/38)
   - [使用切片时要注意的几个坑](https://mp.weixin.qq.com/s/ISLNTCo7Jr9XnqAEhDuYcw)
+  - [实用的切片工具函数](https://github.com/kevinyan815/gocookbook/blob/master/codes/slice_util/code.go)
 - Map
   - [(通识概念)哈希表的设计原理](https://github.com/kevinyan815/gocookbook/issues/39)
   - [声明和初始化](https://github.com/kevinyan815/gocookbook/issues/6)
