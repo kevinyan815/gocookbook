@@ -86,7 +86,8 @@
 - 数据库访问
   - [使用标准库 database/sql 访问数据库](https://mp.weixin.qq.com/s/bhsFCXTZ_TBP0EvyRM-bdA)
   - [使用ORM库 gorm 访问数据库](https://mp.weixin.qq.com/s/N-ZAgRrEu2FJBlApIhuVsg)
-  - [GORM 指南](https://gorm.io/zh_CN/docs/index.html)
+  - [GORM 入门指南](https://www.liwenzhou.com/posts/Go/gorm/)
+  - [GORM CRUD指南](https://www.liwenzhou.com/posts/Go/gorm-crud/)
 - 系统编程
   - [命令行flag](https://github.com/kevinyan815/gocookbook/issues/36)
   - [监听系统信号](https://github.com/kevinyan815/gocookbook/issues/55)
