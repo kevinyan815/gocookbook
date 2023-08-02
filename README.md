@@ -46,6 +46,8 @@
   - [遍历map](https://github.com/kevinyan815/gocookbook/issues/15)
   - [make 和 new](https://github.com/kevinyan815/gocookbook/issues/53)
   - [Go 函数的 Map 型参数，会发生扩容后指向不同底层内存的事儿吗?](https://mp.weixin.qq.com/s/WfzeNWV1j0fSXUiVOLe5jw)
+- 结构体
+  - [巧用匿名结构体](https://github.com/kevinyan815/gocookbook/issues/89)
 - 读写数据
   - [编码JSON](https://github.com/kevinyan815/gocookbook/issues/2)
   - [解码JSON](https://github.com/kevinyan815/gocookbook/issues/1)
