@@ -49,3 +49,7 @@ func isAfterNow(comparedTime time.Time) bool {
 func weekLater(originTime time.Time, w int) time.Time {
 	return originTime.AddDate(0, 0, w * 7)
 }
+
+func daysEarlier(originTime time.Time, d int) time.Time {
+	return originTime.AddDate(0, 0, -d)
+}
