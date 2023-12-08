@@ -21,7 +21,7 @@ func main() {
 func MarshalWithNoEscape(i interface{}) ([]byte, error) {
 	buffer := &bytes.Buffer{}
 	encoder := json.NewEncoder(buffer)
-	//encoder.SetEscapeHTML(false)
+	encoder.SetEscapeHTML(false)
 	err := encoder.Encode(i)
 	return bytes.TrimRight(buffer.Bytes(), "\n"), err
 }
