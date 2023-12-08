@@ -12,7 +12,7 @@ func main() {
 		Url string
 	}{
 		Name: "Jesper",
-		Url: "https://m.qsebao.com/cbb/landpage?scene_name=zhonghui-health-mofang-jf-2023-bundledE3-zrheart-land-page-weiaizf&sku_name=zhonghui-health-mofang-jf-base",
+		Url: "https://yourexample.com/add?type=1&sku=iphone",
 	}
 	enc, _ := MarshalWithNoEscape(&data)
 	fmt.Println(string(enc))
