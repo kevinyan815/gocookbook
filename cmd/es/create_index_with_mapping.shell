@@ -1,0 +1,236 @@
+curl -H 'Content-Type: application/json' -X PUT {$es_server_host[:port]}/{$index_name} -v -d '
+{
+    "mappings": {
+        "_doc": {
+            "properties": {
+                "account": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "performanceType": {
+                    "type": "long"
+                },
+                "orderNo": {
+                    "type": "keyword"
+                },
+                "projectId": {
+                    "type": "long"
+                },
+                "asrState": {
+                    "type": "long"
+                },
+                "businessId": {
+                    "type": "long"
+                },
+                "callDuration": {
+                    "type": "long"
+                },
+                "callType": {
+                    "type": "long"
+                },
+                "chat": {
+                    "properties": {
+                        "content": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "end_time": {
+                            "type": "long"
+                        },
+                        "id": {
+                            "type": "long"
+                        },
+                        "side": {
+                            "type": "long"
+                        },
+                        "start_time": {
+                            "type": "long"
+                        }
+                    }
+                },
+                "checkAccount": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "checkDate": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+                },
+                "bpoCheckAt": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+                },
+                "checkMethod": {
+                    "type": "long"
+                },
+                "checkResult": {
+                    "type": "long"
+                },
+                "checkState": {
+                    "type": "long"
+                },
+                "checkStateV2": {
+                    "type": "long"
+                },
+                "checkType": {
+                    "type": "long"
+                },
+                "contactId": {
+                    "type": "keyword"
+                },
+                "userPhone": {
+                    "type": "keyword"
+                },
+                "contactTime": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+                },
+                "contain": {
+                    "type": "long"
+                },
+                "createdAt": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+                },
+                "departmentId": {
+                    "type": "long"
+                },
+                "endDate": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+                },
+                "facedId": {
+                    "type": "long"
+                },
+                "facedName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "firstCheckAt": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+                },
+                "id": {
+                    "type": "long"
+                },
+                "investigation": {
+                    "type": "long"
+                },
+                "leadsUuid": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                },
+                "lotNumber": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                },
+                "taskType": {
+                    "type": "long"
+                },
+                "platformId": {
+                    "type": "long"
+                },
+                "policys": {
+                    "properties": {
+                        "isSyncBx": {
+                            "type": "long"
+                        },
+                        "policyNo": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        },
+                        "skuName": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "skutitle": {
+                            "type": "text",
+                            "fields": {
+                                "keyword": {
+                                    "type": "keyword",
+                                    "ignore_above": 256
+                                }
+                            }
+                        },
+                        "source": {
+                            "type": "long"
+                        }
+                    }
+                },
+                "reExamine": {
+                    "type": "long"
+                },
+                "recordUuid": {
+                    "type": "keyword",
+                    "ignore_above": 256
+                },
+                "remarks": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "saasKeyword": {
+                    "properties": {
+                        "violationWord": {
+                            "type": "keyword"
+                        },
+                        "standardWord": {
+                            "type": "keyword"
+                        },
+                        "sensitiveWord": {
+                            "type": "keyword"
+                        }
+                    }
+                },
+                "tagId": {
+                    "type": "long"
+                },
+                "tagName": {
+                    "type": "text",
+                    "fields": {
+                        "keyword": {
+                            "type": "keyword",
+                            "ignore_above": 256
+                        }
+                    }
+                },
+                "translationPlatform": {
+                    "type": "long"
+                },
+                "updatedAt": {
+                    "type": "date",
+                    "format": "yyyy-MM-dd HH:mm:ss||yyyy-MM-dd||epoch_millis"
+                }
+            }
+        }
+    }
+}'
