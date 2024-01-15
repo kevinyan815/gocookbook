@@ -1,0 +1,5 @@
+curl -H 'Content-Type: application/json' -XPOST '{$es_server_host}[:{$port}]/{$index_name}/_delete_by_query' -d '{
+    "query" : { 
+        "match_all" : {}
+    }
+}'
