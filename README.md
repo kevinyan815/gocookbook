@@ -156,6 +156,7 @@
   - [数据库ORM的Mock测试](https://github.com/kevinyan815/gocookbook/issues/80)
   - [Mock接口实现和对接口打桩](https://github.com/kevinyan815/gocookbook/issues/78)
   - [全能打桩工具Go Monkey的使用介绍](https://github.com/kevinyan815/gocookbook/issues/79)
+  - [Go单元测试-Goconvey的使用](https://github.com/kevinyan815/gocookbook/issues/91)
   - [如何写出可测试的代码](https://github.com/kevinyan815/gocookbook/issues/81)
   - [用单元测试发现协程泄露隐患](https://mp.weixin.qq.com/s/XrhdU95CswLGwS0CLxqZmg)
   - [Go 1.18 模糊测试使用教程](https://mp.weixin.qq.com/s/7I0zB_AsltzDLmc9ew48Bg)
