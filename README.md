@@ -152,6 +152,7 @@
 - Go 单元测试通关指南
   - [go test 工具集和表格测试](https://github.com/kevinyan815/gocookbook/issues/75)
   - [模拟网络请求和接口调用](https://github.com/kevinyan815/gocookbook/issues/76)
+  - [用gock 拦截HTTP请求，Mock API调用](https://github.com/kevinyan815/gocookbook/issues/92)
   - [原生数据库查询的 Mock 测试](https://github.com/kevinyan815/gocookbook/issues/77)
   - [数据库ORM的Mock测试](https://github.com/kevinyan815/gocookbook/issues/80)
   - [Mock接口实现和对接口打桩](https://github.com/kevinyan815/gocookbook/issues/78)
